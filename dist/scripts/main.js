@@ -1,0 +1,1 @@
+const mensagemClick="Parabens! Você clicou no botão";var numeroDeClicks=0;document.getElementById("button").addEventListener("click",function(){0==numeroDeClicks?(document.getElementById("mensagem").textContent=mensagemClick,numeroDeClicks++):(numeroDeClicks++,document.getElementById("mensagem").textContent=mensagemClick+" "+numeroDeClicks+" vezes")}),console.log(numeroDeClicks);
